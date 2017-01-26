@@ -1,3 +1,13 @@
+#EQUIPE : MYEMW
+
+#PARTICIPANTS
+
+Mickael   
+Yves  
+Eddy  
+Martin  
+William 
+
 #NORMALISATION
 
 ##GIT
@@ -23,4 +33,3 @@ Garder Slack et Trello à jour
 Boostrap pour la responsive  
 HTML 5  
 CSS3 (section / article / nav / header / footer)  
-  
