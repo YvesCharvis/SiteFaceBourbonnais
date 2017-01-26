@@ -10,6 +10,25 @@ William
 
 #NORMALISATION
 
+##COULEURS
+
+Ecriture Face :
+
+	#24888F
+
+Ecriture Orange :
+
+	#EC9566
+
+Nuances du bleu et gris/noir:
+
+	#1693A5
+	#4D4A4A
+
+Gris très clair : 
+
+	#E9E9E9
+
 ##GIT
 
 Branches :
