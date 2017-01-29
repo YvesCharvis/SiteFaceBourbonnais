@@ -1,0 +1,31 @@
+#logo{
+	width: 100%;
+}
+
+body{
+	background-color: #E9E9E9;
+	overflow: hidden;
+	width: 100%;
+}
+
+.container{
+	margin: 0;
+	padding: 0;
+}
+
+.col-xs-3{
+	margin-right:  0;
+	padding-right:  0;
+}
+
+.col-xs-9{
+	margin-left: 0;
+	padding-left: 0;
+
+}
+
+header{
+	background-color: #4D4A4A;
+	margin-right: 0;
+	padding-right: 0;
+}
