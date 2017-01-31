@@ -116,16 +116,21 @@ body{
 }
 
 #facebook{
-	padding-left: 50px;
-	padding-right: 50px;
+	padding-left: 25px;
+	padding-right: 25px;
 	padding-bottom: 50px;
 	background-color: #3B5998;
 	box-shadow: 2px 2px 5px 0px #656565;
 	text-align: center;
 	height: 600px;
-	overflow: scroll;
 }
 
+#facebook2{
+	background-color: #3B5998;
+	text-align: center;
+	height: 600px;
+	overflow: scroll;
+}
 #publication{
 	margin-top: 10px;
 	width: 100%;
