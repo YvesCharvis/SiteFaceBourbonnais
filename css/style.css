@@ -1,0 +1,104 @@
+@font-face {
+	font-family:'geo';
+	src:url('../fonts/geo.ttf');
+}
+
+@font-face {
+	font-family:'captain';
+	src:url('../fonts/captain.ttf');
+}
+
+body{
+	background-color: #E9E9E9 ;
+}
+
+#nav{
+	box-shadow: 2px 2px 5px 0px #656565;
+	background-color: #1693A5 ;
+}
+#logo{
+	width: 300px;
+	margin-left: 10px;
+	margin-top: 10px;
+	box-shadow: 2px 2px 5px 0px #656565;
+}
+
+ul{
+	list-style: none;
+	background-color: #4D4A4A;
+	padding: 0;
+	margin: 0;
+	font-family: 'geo';
+	box-shadow: 2px 2px 5px 0px #656565;
+}
+
+li{
+	font-size: 4em;
+	padding: 20px;
+	text-align: center;
+	border : 1px solid grey;	
+}
+
+li:hover, li:active{
+	background-color: #24888F;
+}
+li a{
+	text-decoration: none;
+	color: #E9E9E9 ;
+}
+
+li:hover a{
+	color: white;
+	text-decoration: none;
+}
+
+
+.col-xs-8{
+	padding: 0;
+}
+
+#focusLI{
+	background-color: #24888F;
+}
+
+#focusLI a{
+	color: white;
+}
+
+#une{
+	margin-top: 50px;
+	font-size: 6em;
+	margin-left: 20px;
+	border-bottom: 5px solid orange;
+	font-family: 'captain';
+	color: #4D4A4A;
+}
+
+#presse{
+	background-color: #24888F;	
+	margin-top: 20px;
+	margin-left: 10px;
+	margin-bottom: 20px;
+	box-shadow: 2px 2px 5px 0px #656565;
+}
+
+#une1{
+	width: 100%;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	box-shadow: 2px 2px 5px 0px #656565;
+}
+
+#une2{
+	width: 100%;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	box-shadow: 2px 2px 5px 0px #656565;
+}
+
+#une3{
+	width: 100%;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	box-shadow: 2px 2px 5px 0px #656565;
+}
