@@ -23,7 +23,7 @@ body{
 	box-shadow: 2px 2px 5px 0px #656565;
 }
 
-ul{
+#nav ul{
 	list-style: none;
 	background-color: #4D4A4A;
 	padding: 0;
@@ -32,22 +32,22 @@ ul{
 	box-shadow: 2px 2px 5px 0px #656565;
 }
 
-li{
+#nav ul li{
 	font-size: 4em;
 	padding: 20px;
 	text-align: center;
 	border : 1px solid grey;	
 }
 
-li:hover, li:active{
+l#nav ul i:hover, li:active{
 	background-color: #24888F;
 }
-li a{
+#nav ul li a{
 	text-decoration: none;
 	color: #E9E9E9 ;
 }
 
-li:hover a{
+#nav ul li:hover a{
 	color: white;
 	text-decoration: none;
 }
@@ -120,6 +120,7 @@ li:hover a{
 	padding-right: 50px;
 	padding-bottom: 50px;
 	background-color: #3B5998;
+	box-shadow: 2px 2px 5px 0px #656565;
 	text-align: center;
 	height: 600px;
 	overflow: scroll;
@@ -142,4 +143,14 @@ li:hover a{
 	margin-left: 10px;
 	margin-bottom: 10px;
 	box-shadow: 2px 2px 5px 0px #656565;
+}
+
+#footer{
+	font-size: 2em;
+	padding-top: 30px;
+}
+
+#imgCarousel{
+	width: 600px;
+	height: 300px;
 }
