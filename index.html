@@ -3,27 +3,47 @@
 	<head>
 		<meta charset="utf-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		 <!-- Meta pour la responsive -->
 		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<!-- Link du CSS de Bootstrap -->
 		<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+		<!-- Link du JS JQuery -->
 		<script type="text/javascript" src="js/jquery.js"></script>
+		<!-- Link du JS de Bootstrap -->
 		<script type="text/javascript" src="js/bootstrap.js"></script>
+		<!-- Link de notre CSS  -->
 		<link rel="stylesheet" type="text/css" href="css/style.css">
 		<title>Site Face</title>
+		<!-- Coloration de Safari sur mobile -->
 		<meta name="apple-mobile-web-app-capable" content="yes">
 		<meta name="apple-mobile-web-app-status-bar-style" content="#24888F">
+		<!-- Coloration de Google Chrome sur mobile -->
 		<meta name="theme-color" content="#24888F">
 	</head>
 
 	<body>
+
+	<!-- //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
+	<!-- ///////////////////////////////////////////////////////////HEADER///////////////////////////////////////////////////////////////// -->
+	<!-- //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
+
 	<div id="nav" class="row">
+
 		<nav>
+
+			<!-- Div du Logo Face Bourbonnais -->
 		 	<div class="col-xs-4 col-md-12">
+
 				 <img id="logo" src="img/logo.jpg" alt="Logo Face Territoire bourbonnais" class="clear2">
 				<img id="logo2" src="img/logo2.png" alt="" class="hidden2">
 				        
 			 </div>
+
+			<!-- Barre de naviguation -->
 			 <div class="col-xs-8 col-md-12">
+
 				 <ul>
+				 	<!-- Lien de la page active -->
 				 	<li id="focusLI"><a href="#">Accueil</a></li>
 				 	<li><a href="#">Présentation</a></li>
 				 	<li><a href="#">Galerie</a></li>
@@ -31,20 +51,31 @@
 				 	<li><a href="#">La Fabrik</a></li>
 				 	<li><a href="#">Contact</a></li>
 				 </ul>
+
 			 </div>
+
 		</nav>
+
 	</div>
 
+	<!-- //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
+	<!-- ///////////////////////////////////////////////////////////CONTENU/////////////////////////////////////////////////////////////// -->
+	<!-- //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
+
 	<div class="row">
+
+		<!-- Titre à la une -->
 		<div class="col-xs-12">
 			
 			<h2 id="une" >A LA UNE</h2>
+
 		</div>
 		
 	</div>
 
 	<div class="row">
 		
+		<!-- Div de la partie presse -->
 		<div class="col-xs-12">
 			
 			<div id="presse">
@@ -52,42 +83,64 @@
 				<div class="row">
 					
 					<div class="col-xs-10 col-xs-offset-1 col-md-6 col-md-offset-1">
+
 						<img id="une1" src="img/une1.png" alt="">
+
 					</div>
 
 					<div class="col-xs-10 col-xs-offset-1 col-md-4 col-md-offset-0">
-						<img id="une1" src="img/une2.png" alt="">
+
+						<img id="une2" src="img/une2.png" alt="">
+
 					</div>
 
 					<div class="col-xs-10 col-xs-offset-1 col-md-4 col-md-offset-0">
-						<img id="une1" src="img/une3.png" alt="">
+
+						<img id="une3" src="img/une3.png" alt="">
+
 					</div>
+
 				</div>
+
 			</div>
+
 		</div>
+
 	</div>
+
 
 	<div class="row">
 		
+		<!-- Div pour le hamburger -->
 		<div class="col-xs-12">
+
 			<div id="hamburger">
+
 				<img id="logoHamburger" src="img/hamburger.png" alt="">
+
 			</div>
+
 		</div>
+
 	</div>
+
 
 	<div class="row">
 		
+		<!-- Div de la partie Facebook -->
 		<div class="col-xs-12	col-md-6">
 
+			<!-- Div du logo Facebook -->
 			<div id="divLogoFacebook">
 				
 				<img id="logoFacebook" src="img/facebook.png" alt="">
 
 			</div>
 
+			<!-- Div des publications Facebook -->
 			<div id="facebook">
 
+				<!-- Div Facebook qui défile -->
 				<div id="facebook2">
 
 					<iframe  id="publication" src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Ffaceterritoirebourbonnais%2Fposts%2F309694616091931%3A0&width=350&show_text=true&height=606&appId" width="350" height="606" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
@@ -105,20 +158,31 @@
 		</div>
 
 	</div>
+	
+	<!-- //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
+	<!-- ///////////////////////////////////////////////////////////FOOTER///////////////////////////////////////////////////////////////// -->
+	<!-- //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
 
 	<div class="row">
 		
 		<div id="footer">
+
+			<!-- Div des mentions légales -->
 			<div class="col-xs-12 col-xs-offset-3 col-md-offset-3">
+
 				<ul>Mentions légales
 					<li>Copyrigth</li>
 					<li>Exemples</li>
 				</ul>
+
 			</div>
 
+			<!-- Div du caroussel des partenaires -->
 			<div class="col-xs-6 col-xs-offset-3 col-md-offset-3">
+
 				<div id="myCarousel" class="carousel slide" data-ride="carousel">
-					  <!-- Indicators -->
+
+					  <!-- Indicateur de page -->
 					  <ol class="carousel-indicators">
 						    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
 						    <li data-target="#myCarousel" data-slide-to="1"></li>
@@ -126,8 +190,9 @@
 						    <li data-target="#myCarousel" data-slide-to="3"></li>
 					  </ol>
 
-					  <!-- Wrapper for slides -->
+					  <!-- Le slider -->
 					  <div class="carousel-inner" role="listbox">
+
 						    <div class="item active">
 						     	<img  id="imgCarousel" src="img/logo.jpg" alt="" >
 						    </div>
@@ -143,9 +208,10 @@
 						    <div class="item">
 						     	<img id="imgCarousel" src="img/une3.png" alt="">
 						    </div>
+
 					 </div>
 
-					  <!-- Left and right controls -->
+					  <!-- Flèches pour changer d'image -->
 					  <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
 					    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
 					    <span class="sr-only">Previous</span>
@@ -154,15 +220,18 @@
 					    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
 					    <span class="sr-only">Next</span>
 					  </a>
-				</div>
-			</div>
-		</div>
-	</div>
-		
-	
-		
 
+				</div>
+
+			</div>
+
+		</div>
+
+	</div>
+
+		<!-- Link de notre script JS -->
 		<script type="text/javascript" src="js/script.js"></script>
+
 	</body>
 
 </html>	

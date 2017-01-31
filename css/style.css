@@ -1,3 +1,6 @@
+/* --------------------------------------------------------------------------------------------------------------------------------------------------*/
+/* ------------------------------------------------------------Importation des poilces---------------------------------------------------*/
+/* --------------------------------------------------------------------------------------------------------------------------------------------------*/
 
 @font-face {
 	font-family:'geo';
@@ -9,30 +12,39 @@
 	src:url('../fonts/captain.ttf');
 }
 
+/* --------------------------------------------------------------------------------------------------------------------------------------------------*/
+/* ------------------------------------------------------------GLOBAL--------------------------------------------------------------------------*/
+/* --------------------------------------------------------------------------------------------------------------------------------------------------*/
+
 body{
 	background-color: #E9E9E9 ;
 	overflow-x: hidden;
 	width: 100%;
 }
 
-.hidden2{
-	display: none;
-	}
-
-.clear2{
-	display: block;
-}
-
-.row{
+.row{			/* Putain de margin de Bootstrap à enlever */
 	margin-left: 0;
 	margin-right: 0;
 }
-#nav{
-	box-shadow: 2px 2px 5px 0px #656565;
-	background-color: #1693A5 ;
+
+.col-xs-8{		/* Putain de bootstrap */
+	padding: 0;
+}
+/* --------------------------------------------------------------------------------------------------------------------------------------------------*/
+/* ------------------------------------------------------------HEADER--------------------------------------------------------------------------*/
+/* --------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+
+
+.hidden2{		/*Logo PC qui n'apparaît pas */
+	display: none;
 }
 
-#logo{
+.clear2{		/*Logo mobile qui apparaît (mobile first) */
+	display: block;
+}
+
+#logo{			/*Logo mobile */
 	width: 100%;
 	margin-top: 10px;
 	box-shadow: 2px 2px 5px 0px #656565;
@@ -40,11 +52,19 @@ body{
 
 #logo2{
 	width: 20%;
-	box-shadow: 2px 2px 5px 0px #656565;
+	box-shadow: 2px 2px 5px 0px #656565;	/*PLEEEEEIN DE BOX SHADOW MOUHAHAHA*/
 }
 
-#nav ul{
-	list-style: none;
+/*-----------------------------BARRE DE NAVIGUATION----------------------------*/
+
+#nav{							/*Le nav global */
+	box-shadow: 2px 2px 5px 0px #656565;
+	background-color: #1693A5 ;
+}
+
+
+#nav ul{						/*Liste du nav */
+	list-style: none;					/*On cache les déco des éléments */
 	background-color: #4D4A4A;
 	padding: 0;
 	margin: 0;
@@ -52,40 +72,45 @@ body{
 	box-shadow: 2px 2px 5px 0px #656565;
 }
 
-#nav ul li{
+#nav ul li{						/* Eléments de la liste */
 	font-size: 1.5em;
 	padding: 7px;
 	text-align: center;
 	border : 1px solid grey;	
 }
 
-#nav ul Li:hover, li:active{
+#nav ul li:hover, li:active{				/* Eléments au passage de la souris */	
 	background-color: #24888F;
-}
-#nav ul li a{
+}	
+#nav ul li a{						/* Liens dans l'élément */
 	text-decoration: none;
 	color: #E9E9E9 ;
 }
 
-#nav ul li:hover a{
+#nav ul li:hover a{					/* Liens au passage de la souris sur l'élément */
 	color: white;
 	text-decoration: none;
 }
 
-
-.col-xs-8{
-	padding: 0;
-}
-
-#focusLI{
+#focusLI{						/* Elément de la page active */
 	background-color: #24888F;
 }
 
-#focusLI a{
+#focusLI a{						/* Lien de la page active */
 	color: white;
 }
 
-#une{
+/* --------------------------------------------------------------------------------------------------------------------------------------------------*/
+/* ------------------------------------------------------------PRESSE---------------------------------------------------------------------------*/
+/* --------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+#presse{						/*Div de presse*/
+	background-color: #24888F;	
+	margin-top: 20px;
+	box-shadow: 2px 2px 5px 0px #656565;
+}
+
+#une{							/*Ensemble des images */
 	margin-top: 50px;
 	font-size: 3em;
 	border-bottom: 5px solid orange;
@@ -93,65 +118,40 @@ body{
 	color: #4D4A4A;
 }
 
-#presse{
-	background-color: #24888F;	
-	margin-top: 20px;
-	box-shadow: 2px 2px 5px 0px #656565;
-}
-
-#une1{
+#une1{						/*Première image*/
 	width: 100%;
 	margin-top: 20px;
 	margin-bottom: 20px;
 	box-shadow: 2px 2px 5px 0px #656565;
 }
 
-#une2{
+#une2{						/* Deuxième image */
 	width: 100%;
 	margin-top: 20px;
 	margin-bottom: 20px;
 	box-shadow: 2px 2px 5px 0px #656565;
 }
 
-#une3{
+#une3{						/* Troisième image */
 	width: 100%;
 	margin-top: 20px;
 	margin-bottom: 20px;
 	box-shadow: 2px 2px 5px 0px #656565;
 }
 
-#logoHamburger{
+#logoHamburger{					/* Logo du Hamburger */
 	width: 5%;
 }
 
-#hamburger{
+#hamburger{						/* Div du future hamburger */
 	text-align: center;
 	background-color: #4D4A4A;
 	box-shadow: 2px 2px 5px 0px #656565;
 }
 
-#facebook{
-	padding-left: 25px;
-	padding-right: 25px;
-	padding-bottom: 50px;
-	background-color: #3B5998;
-	box-shadow: 2px 2px 5px 0px #656565;
-	text-align: center;
-	height: 600px;
-}
-
-#facebook2{
-	background-color: #3B5998;
-	text-align: center;
-	height: 600px;
-	overflow: scroll;
-}
-#publication{
-	margin-top: 10px;
-	width: 100%;
-	background-color: #E9E9E9;
-	box-shadow: 2px 2px 5px 0px #656565;
-}
+/* --------------------------------------------------------------------------------------------------------------------------------------------------*/
+/* ------------------------------------------------------------FACEBOOK----------------------------------------------------------------------*/
+/* --------------------------------------------------------------------------------------------------------------------------------------------------*/
 
 #logoFacebook{
 	width: 60%;	
@@ -162,6 +162,30 @@ body{
 	background-color: #3B5998;
 	margin-top: 50px;
 	margin-bottom: 10px;
+	box-shadow: 2px 2px 5px 0px #656565;
+}
+
+#facebook{						/* Div Facebook derrière */
+	padding-left: 25px;
+	padding-right: 25px;
+	padding-bottom: 50px;
+	background-color: #3B5998;
+	box-shadow: 2px 2px 5px 0px #656565;
+	text-align: center;
+	height: 600px;
+}
+
+#facebook2{						/* Div Facebook devant (avec publication) */
+	background-color: #3B5998;
+	text-align: center;
+	height: 600px;
+	overflow: scroll;
+}
+							/* Formatage des publications */
+#publication{
+	margin-top: 10px;
+	width: 100%;
+	background-color: #E9E9E9;
 	box-shadow: 2px 2px 5px 0px #656565;
 }
 
@@ -180,7 +204,7 @@ body{
 	margin-top: 20px;
 }
 
-@media (min-width: 992px) {
+@media (min-width: 992px) {				/* Version PC */
 
 	#nav{
 		background-color: #E9E9E9;
@@ -201,7 +225,7 @@ body{
 		padding: 20px;
 		text-align: center;
 		border : none;
-		display: inline;
+		display: inline;				/* Nav en ligne */
 	}
 
 	#nav ul Li:hover, li:active{
@@ -221,7 +245,7 @@ body{
 		box-shadow: none;
 	}
 
-	.hidden2{
+	.hidden2{			/* On fait apparaître un logo et disparaître l'autre */
 		display: block;
 	}
 
