@@ -95,16 +95,29 @@ text-align: left;
 }
 
 
-.carousel .carousel-control:hover:after { box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.7); }
+.carousel .carousel-control:hover:after{ 
+  box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.7); 
+}
 
-.carousel .carousel-control.left { left: -30px; }
+.carousel .carousel-control.left{ 
+  left: -30px; 
+}
 
-.carousel .carousel-control.left:before { content: '\e079'; }
+.carousel .carousel-control.left:before{ 
+  content: '\e079'; 
+}
 
-.carousel .carousel-control.left:after { right: -100%; }
+.carousel .carousel-control.left:after{ 
+  right: -100%; }
 
-.carousel .carousel-control.right { right: -30px; }
+.carousel .carousel-control.right{ 
+  right: -30px; 
+}
 
-.carousel .carousel-control.right:before { content: '\e080'; }
+.carousel .carousel-control.right:before{ 
+  content: '\e080'; 
+}
 
-.carousel .carousel-control.right:after { left: -100%; }
+.carousel .carousel-control.right:after{ 
+  left: -100%; 
+}
