@@ -1,3 +1,4 @@
+
 @font-face {
 	font-family:'geo';
 	src:url('../fonts/geo.ttf');
@@ -14,6 +15,14 @@ body{
 	width: 100%;
 }
 
+.hidden2{
+	display: none;
+	}
+
+.clear2{
+	display: block;
+}
+
 .row{
 	margin-left: 0;
 	margin-right: 0;
@@ -22,9 +31,15 @@ body{
 	box-shadow: 2px 2px 5px 0px #656565;
 	background-color: #1693A5 ;
 }
+
 #logo{
 	width: 100%;
 	margin-top: 10px;
+	box-shadow: 2px 2px 5px 0px #656565;
+}
+
+#logo2{
+	width: 20%;
 	box-shadow: 2px 2px 5px 0px #656565;
 }
 
@@ -159,3 +174,68 @@ body{
 	width: 600px;
 	height: 100px;
 }
+
+#footer{
+	border-top: 1px solid grey;
+	margin-top: 20px;
+}
+
+@media (min-width: 992px) {
+
+	#nav{
+		background-color: #E9E9E9;
+
+	}
+
+	#nav ul{
+	list-style: none;
+	background-color: #4D4A4A;
+	padding: 18px;
+	margin: 0;
+	font-family: 'geo';
+	box-shadow: 2px 2px 5px 0px #656565;
+	}
+
+	#nav ul li{
+		font-size: 1.5em;
+		padding: 20px;
+		text-align: center;
+		border : none;
+		display: inline;
+	}
+
+	#nav ul Li:hover, li:active{
+		background-color: #24888F;
+	}
+	#nav ul li a{
+		text-decoration: none;
+		color: #E9E9E9 ;
+	}
+
+	#nav ul li:hover a{
+		color: white;
+		text-decoration: none;
+	}
+	
+	#logo2{
+		box-shadow: none;
+	}
+
+	.hidden2{
+		display: block;
+	}
+
+	.clear2{
+		display: none;
+	}
+
+	#logoHamburger{
+	width: 2%;
+	}
+
+	#imgCarousel{
+	width: 600px;
+	height: 300px;
+	}
+
+ }
