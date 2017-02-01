@@ -1,28 +1,25 @@
 html, body {
-	padding: 0px;
-	margin: 0px;
-  	background-color:white;
-  	color:#fff;
+  padding: 0px;
+  margin: 0px;
+    background-color:white;
+    color:#fff;
 }
-ul{ 
-	padding: 0; 
-}
-li {
+ul, li{ 
   list-style: none;
-  padding: 0;
+  padding: 0; 
 }
 h2{
-	text-align: center;
-	margin-bottom: 10px;
-	color:white;
-	font-size: 23px;
-	font-family: 'Fjalla One';	
+  text-align: center;
+  margin-bottom: 10px;
+  color:white;
+  font-size: 23px;
+  font-family: 'Fjalla One';  
 }
 footer{
 background: #1693A5;
 color: white;
 width: auto;
-height: 50px;
+height: 30px;
 line-height: 20px;
 text-align: left;
 }
@@ -59,23 +56,21 @@ text-align: left;
 #ministere{
   padding-left: 30px;
 }
-.container {
+.caroussel {
   margin: 0 auto;
   max-width: 600px;
 }
 .carousel { 
-	margin: 0 -100px;  
-	width: calc(100% - ($button-spacing * 2));
+  margin: 0 -100px;  
+  width: calc(100% - ($button-spacing * 2));
 }
 
-/* Fleches de direction */
-
+/* Alors tout ça, faut pas chercher à comprendre c'est justes les fleches pour le caroussel */
 .carousel[data-shift="1"] .carousel-inner > .item {
   -webkit-transition: all .5s ease-in-out;
   transition: all .5s ease-in-out;
 }
-.carousel .carousel-inner > .item.row{ 
-  margin: 0; 
+.carousel .carousel-inner > .item.row { margin: 0; 
 }
 .carousel .carousel-control {
   background: none;
@@ -117,7 +112,7 @@ text-align: left;
 .carousel .carousel-control.left:before{ 
   content: '\e079'; 
 }
-.carousel .carousel-control.left:after{ 
+.carousel .carousel-control.left:after{} 
   right: -100%; 
 }
 .carousel .carousel-control.right{ 
