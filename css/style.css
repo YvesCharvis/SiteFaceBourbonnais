@@ -209,12 +209,15 @@ span{
 	padding-right: 25px;
 	padding-bottom: 50px;
 	width: 90%;
-	height: 672px;
+	height: 300px;
 	margin: 20px;
 	margin-top: 30px;
 	box-shadow: 2px 2px 5px 0px #656565;
 }
 
+.presse{
+	display: none;
+}
 #footer{
 	font-size: 1em;
 	padding-top: 30px;
