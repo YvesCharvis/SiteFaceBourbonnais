@@ -4,16 +4,13 @@ html, body {
   	background-color:white;
   	color:#fff;
 }
-
 ul{ 
 	padding: 0; 
 }
-
 li {
   list-style: none;
   padding: 0;
 }
-
 h2{
 	text-align: center;
 	margin-bottom: 10px;
@@ -21,7 +18,6 @@ h2{
 	font-size: 23px;
 	font-family: 'Fjalla One';	
 }
-
 footer{
 background: #1693A5;
 color: white;
@@ -30,56 +26,43 @@ height: 50px;
 line-height: 20px;
 text-align: left;
 }
-
 #ag2r{
   padding-left: 30px;
 }
-
 #afmd{
   padding-left: 20px;
 }
-
 #acse{
   padding-left: 75px;
 }
-
 #anru{
   padding-left: 35px;
 }
-
 #cuisines{
   padding-left: 90px;
 }
-
 #laposte{
   padding-left: 75px;
 }
-
 #apf{
   padding-left: 35px;
 }
-
 #cuisines{
   padding-left: 35px;
 }
-
 #cnam{
   padding-left: 20px;
 }
-
 #ratp{
   padding-left: 40px;
 }
-
 #ministere{
   padding-left: 30px;
 }
-
 .container {
   margin: 0 auto;
   max-width: 600px;
 }
-
 .carousel { 
 	margin: 0 -100px;  
 	width: calc(100% - ($button-spacing * 2));
@@ -91,11 +74,9 @@ text-align: left;
   -webkit-transition: all .5s ease-in-out;
   transition: all .5s ease-in-out;
 }
-
-.carousel .carousel-inner > .item.row { margin: 0; }
-
-
-
+.carousel .carousel-inner > .item.row{ 
+  margin: 0; 
+}
 .carousel .carousel-control {
   background: none;
   color: transparent;
@@ -105,7 +86,6 @@ text-align: left;
   transition: all .3s ease-in-out;
   width: 30px;
 }
-
 .carousel .carousel-control:before {
   color: #444;
   font-family: 'Glyphicons Halflings';
@@ -115,7 +95,6 @@ text-align: left;
   transform: translateY(-50%);
   width: 30px;
 }
-
 .carousel .carousel-control:after {
   border-radius: 50%;
   box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.7);
@@ -129,31 +108,24 @@ text-align: left;
   transition: all .3s ease-in-out;
   width: 100%;
 }
-
-
 .carousel .carousel-control:hover:after{ 
   box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.7); 
 }
-
 .carousel .carousel-control.left{ 
   left: -30px; 
 }
-
 .carousel .carousel-control.left:before{ 
   content: '\e079'; 
 }
-
 .carousel .carousel-control.left:after{ 
-  right: -100%; }
-
+  right: -100%; 
+}
 .carousel .carousel-control.right{ 
   right: -30px; 
 }
-
 .carousel .carousel-control.right:before{ 
   content: '\e080'; 
 }
-
 .carousel .carousel-control.right:after{ 
   left: -100%; 
 }
