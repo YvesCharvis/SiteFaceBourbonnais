@@ -455,6 +455,10 @@ text-align: left;
   width: calc(100% - ($button-spacing * 2));
 }
 
+.carousel-inner{
+	background-color: white;
+}
+
 /* Alors tout ça, faut pas chercher à comprendre c'est justes les fleches pour le caroussel */
 .carousel[data-shift="1"] .carousel-inner > .item {
   -webkit-transition: all .5s ease-in-out;
