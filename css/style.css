@@ -34,6 +34,10 @@ span{
 .col-xs-8{		/* Putain de bootstrap */
 	padding: 0;
 }
+
+.col-xs-12{
+	padding: 0;
+}
 /* --------------------------------------------------------------------------------------------------------------------------------------------------*/
 /* ------------------------------------------------------------HEADER--------------------------------------------------------------------------*/
 /* --------------------------------------------------------------------------------------------------------------------------------------------------*/
@@ -84,7 +88,7 @@ span{
 }
 
 #nav ul li:hover, li:active{				/* Eléments au passage de la souris */	
-	background-color: #24888F;
+	background-color: orange;
 }	
 #nav ul li a{						/* Liens dans l'élément */
 	text-decoration: none;
@@ -116,6 +120,7 @@ span{
 
 #une{							/*Ensemble des images */
 	margin-top: 50px;
+	margin-left: 40px;
 	font-size: 3em;
 	border-bottom: 5px solid orange;
 	font-family: 'geo';
@@ -125,20 +130,16 @@ span{
 #une1{						/*Première image*/
 	width: 100%;
 	margin-top: 20px;
-	margin-bottom: 20px;
 	box-shadow: 2px 2px 5px 0px #656565;
 }
 
 #une2{						/* Deuxième image */
 	width: 100%;
-	margin-top: 20px;
-	margin-bottom: 20px;
 	box-shadow: 2px 2px 5px 0px #656565;
 }
 
 #une3{						/* Troisième image */
 	width: 100%;
-	margin-top: 20px;
 	margin-bottom: 20px;
 	box-shadow: 2px 2px 5px 0px #656565;
 }
@@ -218,6 +219,7 @@ span{
 .presse{
 	display: none;
 }
+
 #footer{
 	font-size: 1em;
 	padding-top: 30px;
