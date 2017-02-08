@@ -451,12 +451,8 @@ text-align: left;
   max-width: 600px;
 }
 .carousel { 
-  margin: 0 -100px;  
-  width: calc(100% - ($button-spacing * 2));
-}
-
-.carousel-inner{
-	background-color: white;
+ 	margin: 0 -100px;  
+  	width: calc(100% - ($button-spacing * 2));
 }
 
 /* Alors tout ça, faut pas chercher à comprendre c'est justes les fleches pour le caroussel */
