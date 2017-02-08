@@ -1,3 +1,5 @@
+//Le JS pour défilement 1 partenaire par 1 partenaire, cherche pas a comprendre non plus, ca marche c cool
+
 var carousels = $('.carousel');
 carousels.each(function() {
   var $obj = $(this);
