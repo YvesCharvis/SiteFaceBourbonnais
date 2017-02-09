@@ -112,6 +112,26 @@ span{
 /* ------------------------------------------------------------PRESSE---------------------------------------------------------------------------*/
 /* --------------------------------------------------------------------------------------------------------------------------------------------------*/
 
+#page1{
+	margin-bottom: 20px;
+}
+
+ #page2{
+ 	margin-bottom: 20px;
+}
+
+#publi1{
+	background-color: white;
+	padding: 10px;
+	box-shadow: 2px 2px 5px 0px #656565;
+}
+
+#publi2{
+	background-color: white;
+	box-shadow: 2px 2px 5px 0px #656565;
+	padding: 10px;
+}
+
 #presse{						/*Div de presse*/
 	background-color: #24888F;	
 	margin-top: 20px;
@@ -158,62 +178,12 @@ span{
 /* ------------------------------------------------------------FACEBOOK----------------------------------------------------------------------*/
 /* --------------------------------------------------------------------------------------------------------------------------------------------------*/
 
-#divSocial{
-	margin-top: 30px;
-	background-color: #24888F;
-	box-shadow: 2px 2px 5px 0px #656565;
-	width: 90%;
-	margin-left: auto;
-	margin-right: auto;
-
-}
-
-#logoFacebook{
-	width: 60%;	
-}
-
-#divLogoFacebook{
-	text-align: center;
-	background-color: #3B5998;
-	margin-top: 50px;
-	margin-bottom: 10px;
-	box-shadow: 2px 2px 5px 0px #656565;
-}
-
-#facebook{						/* Div Facebook derrière */
-	padding-left: 25px;
-	padding-right: 25px;
-	padding-bottom: 50px;
-	background-color: #3B5998;
-	box-shadow: 2px 2px 5px 0px #656565;
-	text-align: center;
-	height: 600px;
-}
-
-#facebook2{						/* Div Facebook devant (avec publication) */
-	background-color: #3B5998;
-	text-align: center;
-	height: 600px;
-	overflow: scroll;
-}
-							/* Formatage des publications */
-#publication{
-	margin-top: 10px;
-	width: 100%;
-	background-color: #E9E9E9;
-	box-shadow: 2px 2px 5px 0px #656565;
-}
-
-#citation{
+#publi1	{
 	background-color: white;
-	padding-left: 25px;
-	padding-right: 25px;
-	padding-bottom: 50px;
-	width: 90%;
-	height: 300px;
-	margin: 20px;
-	margin-top: 30px;
-	box-shadow: 2px 2px 5px 0px #656565;
+}
+
+#publicationF{
+	width: 100%;
 }
 
 .presse{
@@ -356,45 +326,28 @@ span{
 		margin-right: auto;
 	}
 
-	#logoFacebook{
-	width: 30%;	
-	}
-
-	#divLogoFacebook{
-		text-align: center;
-		background-color: #3B5998;
-		margin-top: 0px;
-		margin-bottom: 0px;
+	#page2{
+		margin-top: 30px;
+		background-color: #24888F;
 		box-shadow: 2px 2px 5px 0px #656565;
-	}
-
-	#facebook{						/* Div Facebook derrière */
-		padding-left: 0px;
-		padding-right: 0px;
-		padding-bottom: 50px;
-		background-color: #3B5998;
-		box-shadow: 2px 2px 5px 0px #656565;
-		text-align: center;
-		height: 600px;
-	}
-
-	#facebook2{						/* Div Facebook devant (avec publication) */
-		background-color: #3B5998;
-		text-align: center;
-		height: 600px;
-		overflow: hidden;
+		width: 90%;
+		margin-left: auto;
+		margin-right: auto;
+		padding-top: 20px;
+		padding-bottom: 20px;
 	}
 	
-	#citation{
-		background-color: white;
-		padding-left: 25px;
-		padding-right: 25px;
-		padding-bottom: 50px;
-		width: 38%;
-		height: 672px;
-		margin: 20px;
-		margin-top: 30px;
-		box-shadow: 2px 2px 5px 0px #656565;
-	}			
+	#fondpubli{
+		width: 90%;
+		margin-left: 5%;	
+	}
 
+	#publi1{
+		margin-top: 20px;
+	}
+
+	#publi2{
+		margin-left: 10px;
+		margin-top: 20px;
+	}
  }
