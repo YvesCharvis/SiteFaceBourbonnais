@@ -192,18 +192,18 @@ ul, li{
   padding: 0; 
 }
 h2{
-	background-color: #1693A5;
-  	text-align: center;
-  	margin-bottom: 10px;
-  	color:white;
-  	font-size: 23px;
-  	font-family: 'geo';  
-  	box-shadow: 2px 2px 5px 0px #656565;
+  background-color: #1693A5;
+    text-align: center;
+    margin-bottom: 10px;
+    color:white;
+    font-size: 23px;
+    font-family: 'geo';  
+    box-shadow: 2px 2px 5px 0px #656565;
 }
 footer{
 color: white;
 width: auto;
-height: 30px;
+height: 10px;
 line-height: 20px;
 text-align: left;
 }
@@ -215,7 +215,7 @@ text-align: left;
 }
 
 #admical{
-	padding-left: 90px;
+  padding-left: 90px;
 }
 
 #afmd{
@@ -250,11 +250,11 @@ text-align: left;
 }
 .caroussel {
   margin: 0 auto;
-  max-width: 940px;
+  max-width: 100px;
 }
 .carousel { 
- 	margin: 0 -100px;  
-  	width: calc(100% - ($button-spacing * 2));
+  margin: 0 100px;  
+    width: calc(100% - ($button-spacing * 2));
 }
 
 /* fin du gros bordel */
@@ -300,25 +300,26 @@ text-align: left;
   width: 100%;
 }
 .carousel .carousel-control.left{ 
-	left: -20px; top: 30px; 
+  left: -20px; top: 30px; 
 }
 
 .carousel .carousel-control.left:before{ 
-	content: '\e079'; 
+  content: '\e079'; 
 }
 
 .carousel .carousel-control.left:after{ 
-	right: -100%; 
+  right: -100%; 
 }
 
 .carousel .carousel-control.right{ 
-	top: 30px; 
+  top: 30px; 
 }
 
 .carousel .carousel-control.right:before{ 
-	content: '\e080'; 
+  content: '\e080'; 
 }
 
 .carousel .carousel-control.right:after{ 
-	left: -100%; 
+  left: -100%; 
 }
+
