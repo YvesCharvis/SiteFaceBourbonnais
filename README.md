@@ -2,9 +2,9 @@
 
 #PARTICIPANTS
 
-Mickael   
+ 
 Yves*  
-Eddy  
+Aude  
 Martin  
 William 
 Sophie
